@@ -10,7 +10,7 @@ import (
 var rawPrint bool
 
 var publicIpCmd = &cobra.Command{
-	Use:   "publicIp",
+	Use:   "public-ip",
 	Short: "Get our network public IP",
 	Run: func(cmd *cobra.Command, args []string) {
 
